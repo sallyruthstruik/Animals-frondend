@@ -5,7 +5,7 @@
 control = {
 	characterSize: 250,
 	duration: 100,
-	interval: 3000
+	interval: 2000
 }
 /*
  * конструктор класcа вопроса
