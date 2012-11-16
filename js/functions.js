@@ -130,7 +130,7 @@ function hideQuestion( id ) {
 	} else {
 		if( $( ".div_question_class[id=" + id + "]" ).length > 0 ) {
 			$( ".div_question_class[id=" + id + "]" )
-				children().animate( {opacity: 0}, control.duration, function() {
+				.children().animate( {opacity: 0}, control.duration, function() {
 					
 				} );
 			console.log( "Remove question id #"+id );
