@@ -163,13 +163,13 @@ img {
 #div_questions {
 	float: left;
 	width: 320px;
-	display: none;
 }
 
 .div_question_class {
 	width: 300px;
 	background: transparent;
 	margin-bottom: 20px;
+	display: none;
 }
 
 .div_questionLeft_class {
