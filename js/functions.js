@@ -191,7 +191,12 @@ function hideAnimal( id ) {
 		console.log( "Remove all animals" );
 	} else {
 		if( $( ".div_answer_class[id=" + id + "]" ).length > 0 ) {
-			$( ".div_answer_class[id=" + id + "]" ).remove();
+			$( ".div_answer_class[id=" + id + "]" )
+				.children().animate( {opacity: 0}, control.duration*3, function() {
+					$( ".div_answer_class[id=" + id + "]" ).slideUp( control.duration*3, function() {
+						$( this ).delay( control.duration*3 ).remove();
+					} );
+				} );;
 			console.log( "Remove animal id #"+id );
 		} else {
 			console.log( "Can't remove animal id #"+id );
