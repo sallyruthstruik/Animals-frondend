@@ -131,7 +131,9 @@ function hideQuestion( id ) {
 		if( $( ".div_question_class[id=" + id + "]" ).length > 0 ) {
 			$( ".div_question_class[id=" + id + "]" )
 				.children().animate( {opacity: 0}, control.duration*3, function() {
-					
+					$( ".div_question_class[id=" + id + "]" ).slideUp( control.duration*3, function() {
+						$( this ).delay( control.duration*3).remove();
+					} );
 				} );
 			console.log( "Remove question id #"+id );
 		} else {
