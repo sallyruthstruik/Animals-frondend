@@ -217,15 +217,15 @@ img {
 	padding: 5px;
 	margin-bottom: 5px;
 	width: 100px;
-	-moz-box-shadow: 0px 0px 10px 0px #fcfcf4;
+	/*-moz-box-shadow: 0px 0px 10px 0px #fcfcf4;
  	-webkit-box-shadow: 0px 0px 10px 0px #fcfcf4;
-	box-shadow: 0px 0px 10px 0px #FCFCF4;
+	box-shadow: 0px 0px 10px 0px #FCFCF4;*/
 }
 
 .button_questionOption_class:hover {
-	-moz-box-shadow: 0px 0px 10px 3px #FCFCF4;
+	/*-moz-box-shadow: 0px 0px 10px 3px #FCFCF4;
 	-webkit-box-shadow: 0px 0px 10px 3px #FCFCF4;
-	box-shadow: 0px 0px 10px 3px #FCFCF4;
+	box-shadow: 0px 0px 10px 3px #FCFCF4;*/
 }
 
 /**************answer*********************/
