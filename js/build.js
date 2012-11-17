@@ -101,18 +101,18 @@ function build_content( mode ) {
 
 function build_character( mode ) {
 	inn = 
-	div( "characterEye", "", "", "" )+
+	/*div( "characterEye", "", "", "" )+
 	div( "characterBody", "", "", "" )+
 	div( "characterWing", "", "", "" )+
 	div( "characterBeakUp", "", "", "" )+
 	div( "characterBeakDown", "", "", "" )+
-	"1"
+	"1"*/
 	/*********************************/
 	$( "#div_character" ).html( inn );
 
 	setInterval( randAnimateCharacter, control.interval );
 
-	$( "#div_characterEye" )
+	/*$( "#div_characterEye" )
 		.css( "width", (control.characterSize/250)*27 )
 		.css( "height", (control.characterSize/250)*27 )
 		.css( "top", (control.characterSize/250)*50 )
@@ -171,7 +171,7 @@ function build_character( mode ) {
 		.css( "-o-border-bottom-right-radius", (control.characterSize/250)*27.3 )
 		.css( "-ms-border-bottom-right-radius", (control.characterSize/250)*27.3 )
 		.css( "-khtml-border-bottom-right-radius", (control.characterSize/250)*27.3 )
-		.css( "border-bottom-right-radius", (control.characterSize/250)*27.3 );
+		.css( "border-bottom-right-radius", (control.characterSize/250)*27.3 );*/
 }
 
 function build_footer( mode ) {
