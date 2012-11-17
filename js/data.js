@@ -3,7 +3,7 @@
  * содержит основные данные страницы
 */
 control = {
-	characterSize: 250,
+	characterSize: 200,
 	duration: 100,
 	interval: 2000
 }
