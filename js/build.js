@@ -106,13 +106,13 @@ function build_character( mode ) {
 	div( "characterWing", "", "", "" )+
 	div( "characterBeakUp", "", "", "" )+
 	div( "characterBeakDown", "", "", "" )+
-	"1"*/
+	"1"
 	/*********************************/
 	$( "#div_character" ).html( inn );
 
 	setInterval( randAnimateCharacter, control.interval );
 
-	/*$( "#div_characterEye" )
+	$( "#div_characterEye" )
 		.css( "width", (control.characterSize/250)*27 )
 		.css( "height", (control.characterSize/250)*27 )
 		.css( "top", (control.characterSize/250)*50 )
