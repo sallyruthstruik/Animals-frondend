@@ -48,8 +48,8 @@ function animateCharacter( mode ) {
 			} );
 			break;
 		case 3: // sigh
-			$( "#div_characterBody" ).animate( { borderBottomRightRadius: "-=30"}, control.duration*2, function() {
-				$( this ).animate( { borderBottomRightRadius: "+=30"}, control.duration*2 );
+			$( "#div_characterBody" ).animate( { borderBottomRightRadius: "-=15"}, control.duration*2, function() {
+				$( this ).animate( { borderBottomRightRadius: "+=15"}, control.duration*2 );
 			} );
 			break;
 	}
