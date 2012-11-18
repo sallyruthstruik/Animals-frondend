@@ -1,5 +1,5 @@
 
-
+/*zXCvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcv*/
 /*
  * функция,
  * возвращает данные COOKIE
