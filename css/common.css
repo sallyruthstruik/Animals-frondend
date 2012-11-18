@@ -19,8 +19,8 @@ img {
 #div_header {
 	height: 50px;
 	margin-bottom: 50px;
-	background: #A3D3D9;
-	border-bottom: #222940 2px solid;
+	background: #BBC7D3;
+	/*border-bottom: #222940 2px solid;*/
 }
 
 #div_content {
@@ -96,14 +96,15 @@ img {
 	background: transparent;
 	border: none;
 	height: 50px;
-	color: #222940;
+	color: #111111;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-right: 10px;
 }
 
 .button_mainMenuLeft_class:hover {
-	background: #91C4D9;
+	background: #597DA3;
+	color: #ffffff;
 }
 
 .button_mainMenuRight_class {
@@ -111,14 +112,15 @@ img {
 	background: transparent;
 	border: none;
 	height: 50px;
-	color: #222940;
+	color: #111111;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-left: 10px;
 }
 
 .button_mainMenuRight_class:hover {
-	background: #91C4D9;
+	background: #597DA3;
+	color: #ffffff;
 }
 
 /****************character*******************/
@@ -181,7 +183,7 @@ img {
 
 .div_questionLeft_class {
 	width: 300px;
-	background: #A3D3D9;
+	background: #BBC7D3;
 	float: left;
 }
 
@@ -211,7 +213,7 @@ img {
 	height: 0; 
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	border-left: 20px solid #A3D3D9;
+	border-left: 20px solid #BBC7D3;
 }
 
 .button_questionOption_class {
@@ -220,7 +222,7 @@ img {
 	display: block;
 	cursor: pointer;
 	color: #FCFCF4;
-	background: #222940;
+	background: #597DA3;
 	border: none;
 	padding: 5px;
 	margin-bottom: 5px;
