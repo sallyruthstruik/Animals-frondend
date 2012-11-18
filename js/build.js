@@ -29,7 +29,7 @@ function build_body( mode ) {
 	/*******************************/
 	build_main( mode );
 	/*******************************/
-	$( "#div_surrenderCurtain" )
+	$( "#div_surrender" )
 		.css( "top", $( "#button_surrender" ).position().bottom + 20 )
 		.css( "left", $( "#button_surrender" ).position().left + 20 );
 }
