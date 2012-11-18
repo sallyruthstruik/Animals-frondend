@@ -19,6 +19,7 @@ img {
 #div_header {
 	height: 50px;
 	margin-bottom: 50px;
+	padding: 10px 0px
 	background: #E1E7ED;
 	/*border-bottom: #222940 2px solid;*/
 }
