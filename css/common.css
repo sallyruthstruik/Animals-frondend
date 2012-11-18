@@ -206,7 +206,7 @@ img {
 	height: 0; 
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	border-left: 20px solid #BBC7D3;
+	border-left: 20px solid #597DA3;
 }
 
 .button_questionOption_class {
@@ -252,7 +252,7 @@ img {
 
 .div_answerRight_class {
 	width: 130px;
-	background: #597DA3;
+	background: #001E2D;
 	float: left;
 }
 
