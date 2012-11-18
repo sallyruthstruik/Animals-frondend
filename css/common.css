@@ -123,7 +123,7 @@ img {
 
 /****************character*******************/
 
-/*#div_character {
+#div_character {
 	float: left;
 	width: 261px;
 	color: transparent;
@@ -164,7 +164,7 @@ img {
 #div_characterBeakDown {
 	z-index: 7;
 	background: #F79327;
-}*/
+}
 
 /**************question*********************/
 
