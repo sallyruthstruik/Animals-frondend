@@ -19,7 +19,7 @@ img {
 #div_header {
 	height: 50px;
 	margin-bottom: 50px;
-	background: #BFB0BD;
+	background: #A3D3D9;
 	border-bottom: #222940 5px solid;
 }
 
@@ -173,7 +173,7 @@ img {
 
 .div_questionLeft_class {
 	width: 300px;
-	background: #BFB0BD;
+	background: #A3D3D9;
 	float: left;
 }
 
@@ -203,7 +203,7 @@ img {
 	height: 0; 
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	border-left: 20px solid #BFB0BD;
+	border-left: 20px solid #A3D3D9;
 }
 
 .button_questionOption_class {
@@ -212,7 +212,7 @@ img {
 	display: block;
 	cursor: pointer;
 	color: #FCFCF4;
-	background: #222940;
+	background: #A3D3D9;
 	border: none;
 	padding: 5px;
 	margin-bottom: 5px;
