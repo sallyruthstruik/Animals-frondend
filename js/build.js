@@ -31,7 +31,7 @@ function build_body( mode ) {
 	/*******************************/
 	$( "#div_surrender" )
 		.css( "top", $( "#button_mainMenuSurrender" ).position().top + 70 )
-		.css( "left", $( "#button_mainMenuSurrender" ).position().left - ( $( "#div_surrender" ).width() - $( "#button_mainMenuSurrender" ).width() )/2 );
+		.css( "left", $( "#button_mainMenuSurrender" ).position().left - 15 );
 }
 
 function build_main( mode ) {
