@@ -29,9 +29,9 @@ function build_body( mode ) {
 	/*******************************/
 	build_main( mode );
 	/*******************************/
-	/*$( "#div_surrender" )
-		.css( "top", $( "#button_surrender" ).position().bottom + 20 )
-		.css( "left", $( "#button_surrender" ).position().left + 20 );*/
+	$( "#div_surrender" )
+		.css( "top", $( "#button_mainMenuSurrender" ).position().bottom + 20 )
+		.css( "left", $( "#button_mainMenuSurrender" ).position().left + 20 );
 }
 
 function build_main( mode ) {
