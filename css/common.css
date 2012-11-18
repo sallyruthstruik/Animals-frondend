@@ -19,7 +19,7 @@ img {
 #div_header {
 	height: 50px;
 	margin-bottom: 50px;
-	padding: 5px 0px;
+	padding: 0px;
 	background: #BBC7D3;
 	/*border-bottom: #001E2D 1px solid;*/
 }
@@ -99,7 +99,7 @@ img {
 }
 
 .button_mainMenuLeft_class:hover {
-	background: #001E2D;
+	background: #222940;
 }
 
 .button_mainMenuRight_class {
