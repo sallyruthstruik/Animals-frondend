@@ -20,7 +20,7 @@ img {
 	height: 50px;
 	margin-bottom: 50px;
 	background: #A3D3D9;
-	border-top: #222940 5px solid;
+	border-bottom: #222940 2px solid;
 }
 
 #div_content {
@@ -93,24 +93,32 @@ img {
 
 .button_mainMenuLeft_class {
 	cursor: pointer;
-	background: #222940;
+	background: transparent;
 	border: none;
 	height: 50px;
-	color: #fcfcf4;
+	color: #6576AD;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-right: 10px;
 }
 
+.button_mainMenuLeft_class:hover {
+	color: #222940;
+}
+
 .button_mainMenuRight_class {
 	cursor: pointer;
-	background: #222940;
+	background: transparent;
 	border: none;
 	height: 50px;
-	color: #fcfcf4;
+	color: #6576AD;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-left: 10px;
+}
+
+.button_mainMenuRight_class:hover {
+	color: #222940;
 }
 
 /****************character*******************/
