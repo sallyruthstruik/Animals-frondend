@@ -19,7 +19,7 @@ img {
 #div_header {
 	height: 50px;
 	margin-bottom: 50px;
-	background: #BBC7D3;
+	background: #E1E7ED;
 	/*border-bottom: #222940 2px solid;*/
 }
 
@@ -96,7 +96,7 @@ img {
 	background: transparent;
 	border: none;
 	height: 50px;
-	color: #111111;
+	color: #ffffff;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-right: 10px;
@@ -104,7 +104,6 @@ img {
 
 .button_mainMenuLeft_class:hover {
 	background: #597DA3;
-	color: #ffffff;
 }
 
 .button_mainMenuRight_class {
@@ -112,7 +111,7 @@ img {
 	background: transparent;
 	border: none;
 	height: 50px;
-	color: #111111;
+	color: #ffffff;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-left: 10px;
@@ -120,7 +119,6 @@ img {
 
 .button_mainMenuRight_class:hover {
 	background: #597DA3;
-	color: #ffffff;
 }
 
 /****************character*******************/
@@ -196,7 +194,7 @@ img {
 	float: left;
 	font-family: "Segoe UI";
 	font-size: 18px;
-	color: #FCFCF4;
+	color: #ffffff;
 	width: 170px;
 	margin: 10px 5px 5px 10px;
 	overflow: hidden;
@@ -221,7 +219,7 @@ img {
 	font-size: 15px;
 	display: block;
 	cursor: pointer;
-	color: #FCFCF4;
+	color: #ffffff;
 	background: #597DA3;
 	border: none;
 	padding: 5px;
