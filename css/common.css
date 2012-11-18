@@ -19,7 +19,7 @@ img {
 #div_header {
 	height: 50px;
 	margin-bottom: 50px;
-	background: #f2ebd5;
+	background: #BFB0BD;
 	border-bottom: #222940 5px solid;
 }
 
@@ -115,7 +115,7 @@ img {
 
 /****************character*******************/
 
-#div_character {
+/*#div_character {
 	float: left;
 	width: 261px;
 	color: transparent;
@@ -156,7 +156,7 @@ img {
 #div_characterBeakDown {
 	z-index: 7;
 	background: #F79327;
-}
+}*/
 
 /**************question*********************/
 
@@ -173,7 +173,7 @@ img {
 
 .div_questionLeft_class {
 	width: 300px;
-	background: #8ABE34;
+	background: #BFB0BD;
 	float: left;
 }
 
@@ -203,7 +203,7 @@ img {
 	height: 0; 
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	border-left: 20px solid #8ABE34;
+	border-left: 20px solid #BFB0BD;
 }
 
 .button_questionOption_class {
@@ -212,7 +212,7 @@ img {
 	display: block;
 	cursor: pointer;
 	color: #FCFCF4;
-	background: #4A7014;
+	background: #222940;
 	border: none;
 	padding: 5px;
 	margin-bottom: 5px;
