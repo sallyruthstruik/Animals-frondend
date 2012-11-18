@@ -19,9 +19,9 @@ img {
 #div_header {
 	height: 50px;
 	margin-bottom: 50px;
-	padding: 10px 0px;
-	background: #E1E7ED;
-	border-bottom: #001E2D 1px solid;
+	padding: 5px 0px;
+	background: #BBC7D3;
+	/*border-bottom: #001E2D 1px solid;*/
 }
 
 #div_content {
@@ -89,7 +89,7 @@ img {
 
 .button_mainMenuLeft_class {
 	cursor: pointer;
-	background: #BBC7D3;
+	background: #597DA3;
 	border: none;
 	height: 50px;
 	color: #ffffff;
@@ -99,12 +99,12 @@ img {
 }
 
 .button_mainMenuLeft_class:hover {
-	background: #597DA3;
+	background: #001E2D;
 }
 
 .button_mainMenuRight_class {
 	cursor: pointer;
-	background: #BBC7D3;
+	background: #597DA3;
 	border: none;
 	height: 50px;
 	color: #ffffff;
@@ -114,7 +114,7 @@ img {
 }
 
 .button_mainMenuRight_class:hover {
-	background: #597DA3;
+	background: #001E2D;
 }
 
 /****************character*******************/
