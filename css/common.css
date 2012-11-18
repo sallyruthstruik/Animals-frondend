@@ -114,7 +114,7 @@ img {
 }
 
 .button_mainMenuRight_class:hover {
-	background: #001E2D;
+	background: #222940;
 }
 
 /****************character*******************/
@@ -133,7 +133,7 @@ img {
 
 #div_characterEye {
 	z-index: 6;
-	background: #001E2D;
+	background: #222940;
 	border-color: #ffffff;
 	border-style: solid;
 }
@@ -149,7 +149,7 @@ img {
 
 #div_characterWing {
 	z-index: 6;
-	background: #001E2D;
+	background: #222940;
 }
 
 #div_characterBeakUp {
@@ -216,7 +216,7 @@ img {
 	display: block;
 	cursor: pointer;
 	color: #ffffff;
-	background: #001E2D;
+	background: #222940;
 	border: none;
 	padding: 5px;
 	margin-bottom: 5px;
@@ -253,7 +253,7 @@ img {
 
 .div_answerRight_class {
 	width: 130px;
-	background: #001E2D;
+	background: #222940;
 	float: left;
 }
 
