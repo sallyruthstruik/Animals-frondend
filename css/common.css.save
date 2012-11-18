@@ -1,0 +1,217 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+}
+
+img {
+	/*-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+.div_spacer_class {
+	clear: both;
+}
+
+#div_header {
+	height: 50px;
+	margin-bottom: 50px;
+	background: #8ABE34;
+	border-bottom: #4A7014 10px solid;
+}
+
+#div_content {
+	width: 920px;
+	margin: 0 auto;
+
+
+}
+
+/****************character*******************/
+
+#div_character {
+	float: left;
+	width: 311px;
+	color: transparent;
+	padding: 0px 24px 0px 25px;
+}
+
+#div_character > div {
+	position: absolute;
+	margin-top: 100px;
+}
+
+#div_characterEye {
+	z-index: 6;
+	background: #366917;
+	border-color: #FCFCF4;
+	border-style: solid;
+}
+
+#div_characterBody {
+	z-index: 5;
+	background: #8ABE34;
+	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.05) inset;
+	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
+	-o-box-shadow: 0 0 30px rgba(0,0,0,0.05) inset;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
+}
+
+#div_characterWing {
+	z-index: 6;
+	background: #4A7014;
+}
+
+#div_characterBeakUp {
+	z-index: 7;
+	background: #FCAF26;
+}
+
+#div_characterBeakDown {
+	z-index: 7;
+	background: #F79327;
+}
+
+/**************question*********************/
+
+#div_questions {
+	float: left;
+	width: 320px;
+}
+
+.div_question_class {
+	width: 300px;
+	background: transparent;
+	margin-bottom: 20px;
+}
+
+.div_questionLeft_class {
+	width: 300px;
+	background: #8ABE34;
+	float: left;
+}
+
+.div_questionRight_class {
+	width: 0px;
+	float: left;
+}
+
+.div_questionText_class {
+	float: left;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	color: #FCFCF4;
+	width: 170px;
+	margin: 10px 5px 5px 10px;
+}
+
+.div_questionOptions_class {
+	float: left;
+	width: 100px;
+	margin: 10px 10px 5px 5px;
+}
+
+.div_questionArrow_class {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #8ABE34;
+}
+
+.button_questionOption_class {
+	font-family: "Segoe UI Semibold";
+	font-size: 15px;
+	display: block;
+	cursor: pointer;
+	color: #FCFCF4;
+	background: #4A7014;
+	border: none;
+	padding: 5px;
+	margin-bottom: 5px;
+	width: 100px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-moz-box-shadow: 0px 0px 10px 0px #fcfcf4;
+ 	-webkit-box-shadow: 0px 0px 10px 0px #fcfcf4;
+	box-shadow: 0px 0px 10px 0px #FCFCF4;
+}
+
+.button_questionOption_class:hover {
+	-moz-box-shadow: 0px 0px 10px 3px #FCFCF4;
+	-webkit-box-shadow: 0px 0px 10px 3px #FCFCF4;
+	box-shadow: 0px 0px 10px 3px #FCFCF4;
+}
+
+/**************answer*********************/
+
+#div_answers {
+	float: left;
+	width: 150px;
+}
+
+.div_answer_class {
+	width: 150px;
+	background: transparent;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.div_answerLeft_class {
+	width: 20px;
+	float: left;
+}
+
+.div_answerRight_class {
+	width: 130px;
+	background: #FCAF26;
+	float: left;
+}
+
+.div_answerText_class {
+	font-family: "Segoe UI Semibold";
+	font-size: 24px;
+	line-height: 60px;
+	color: #FCFCF4;
+	width: 130px;
+	text-align: center;
+}
+
+.div_answerArrow_class {
+	width: 0; 
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right: 20px solid #FCAF26;
+}
+
+.button_answerOption_class {
+	font-family: "Segoe UI Semibold";
+	font-size: 15px;
+	display: block;
+	cursor: pointer;
+	color: #FCFCF4;
+	background: #F79327;
+	border: none;
+	padding: 5px;
+	margin-bottom: 5px;
+	width: 100px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-moz-box-shadow: 0px 0px 10px 0px #ffffff;
+ 	-webkit-box-shadow: 0px 0px 10px 0px #ffffff;
+	box-shadow: 0px 0px 10px 0px #FCFCF4;
+}
+
+.button_answerOption_class:hover {
+	-moz-box-shadow: 0px 0px 10px 3px #FCFCF4;
+	-webkit-box-shadow: 0px 0px 10px 3px #FCFCF4;
+	box-shadow: 0px 0px 10px 3px #FCFCF4;
+}
