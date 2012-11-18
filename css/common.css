@@ -93,7 +93,7 @@ img {
 
 .button_mainMenuLeft_class {
 	cursor: pointer;
-	background: transparent;
+	background: #BBC7D3;
 	border: none;
 	height: 50px;
 	color: #ffffff;
@@ -108,7 +108,7 @@ img {
 
 .button_mainMenuRight_class {
 	cursor: pointer;
-	background: transparent;
+	background: #BBC7D3;
 	border: none;
 	height: 50px;
 	color: #ffffff;
