@@ -137,14 +137,14 @@ img {
 
 #div_characterEye {
 	z-index: 6;
-	background: #366917;
-	border-color: #FCFCF4;
+	background: #597DA3;
+	border-color: #ffffff;
 	border-style: solid;
 }
 
 #div_characterBody {
 	z-index: 5;
-	background: #8ABE34;
+	background: #BBC7D3;
 	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.05) inset;
 	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
 	-o-box-shadow: 0 0 30px rgba(0,0,0,0.05) inset;
@@ -153,7 +153,7 @@ img {
 
 #div_characterWing {
 	z-index: 6;
-	background: #4A7014;
+	background: #597DA3;
 }
 
 #div_characterBeakUp {
