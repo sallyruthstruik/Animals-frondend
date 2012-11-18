@@ -50,13 +50,11 @@ img {
 	text-align: center;
 	padding-top: 20px;
 	background: #BBC7D3;
-	border: #141313 1px solid;
 }
 
 .input_popWindow_class {
-	width: 124px;
-	height: 30px;
-	border: #141313 1px solid;
+	width: 126px;
+	height: 32px;
 	padding: 5px;
 	font-family: "Segoe UI";
 	font-size: 18px;
