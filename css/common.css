@@ -139,7 +139,7 @@ img {
 
 #div_characterBody {
 	z-index: 5;
-	background: #BBC7D3;
+	background: #597DA3;
 	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.05) inset;
 	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
 	-o-box-shadow: 0 0 30px rgba(0,0,0,0.05) inset;
@@ -148,17 +148,17 @@ img {
 
 #div_characterWing {
 	z-index: 6;
-	background: #597DA3;
+	background: #001E2D;
 }
 
 #div_characterBeakUp {
 	z-index: 7;
-	background: #BF9D7E;
+	background: #2118640;
 }
 
 #div_characterBeakDown {
 	z-index: 7;
-	background: #8C5B49;
+	background: #EC2B22;
 }
 
 /**************question*********************/
