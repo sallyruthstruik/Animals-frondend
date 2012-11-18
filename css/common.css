@@ -1,7 +1,7 @@
 html, body {
 	margin: 0px;
 	padding: 0px;
-	background: #ffffff;
+	background: #E7EBF0;
 }
 
 img {
@@ -19,8 +19,7 @@ img {
 #div_header {
 	height: 50px;
 	margin-bottom: 50px;
-	background: #8ABE34;
-	border-bottom: #4A7014 10px solid;
+	background: #C8D2DB;
 }
 
 #div_content {
@@ -42,7 +41,6 @@ img {
 .div_popWindow_class {
 	display: none;
 	position: fixed;
-	background: red;
 	width: 200px;
 	height: 110px;
 	top: 30%;
@@ -50,14 +48,13 @@ img {
 	z-index: 11;
 	text-align: center;
 	padding-top: 20px;
-	background: #fcfcf4;
-	border: #141313 1px solid;
+	background: #C8D2DB;
+	border: #222940 1px solid;
 }
 
 .input_popWindow_class {
-	width: 124px;
-	height: 30px;
-	border: #141313 1px solid;
+	width: 126px;
+	height: 32px;
 	padding: 5px;
 	font-family: "Segoe UI";
 	font-size: 18px;
@@ -69,11 +66,15 @@ img {
 	width: 136px;
 	height: 42px;
 	border: none;
-	background: #4a7014;
-	color: #fcfcf4;
+	background: #597DA3;
+	color: #ffffff;
 	font-family: "Segoe UI Semibold";
 	font-size: 18px;
 	cursor: pointer;
+}
+
+.button_popWindow_class:hover {
+	background: #222940;
 }
 
 /******************mainMenu**************/
@@ -93,24 +94,32 @@ img {
 
 .button_mainMenuLeft_class {
 	cursor: pointer;
-	background: #4a7014;
+	background: #597DA3;
 	border: none;
 	height: 50px;
-	color: #fcfcf4;
+	color: #ffffff;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-right: 10px;
 }
 
+.button_mainMenuLeft_class:hover {
+	background: #222940;
+}
+
 .button_mainMenuRight_class {
 	cursor: pointer;
-	background: #fcaf26;
+	background: #597DA3;
 	border: none;
 	height: 50px;
-	color: #fcfcf4;
+	color: #ffffff;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-left: 10px;
+}
+
+.button_mainMenuRight_class:hover {
+	background: #222940;
 }
 
 /****************character*******************/
@@ -129,14 +138,14 @@ img {
 
 #div_characterEye {
 	z-index: 6;
-	background: #366917;
-	border-color: #FCFCF4;
+	background: #222940;
+	border-color: #ffffff;
 	border-style: solid;
 }
 
 #div_characterBody {
 	z-index: 5;
-	background: #8ABE34;
+	background: #597DA3;
 	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.05) inset;
 	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
 	-o-box-shadow: 0 0 30px rgba(0,0,0,0.05) inset;
@@ -145,17 +154,17 @@ img {
 
 #div_characterWing {
 	z-index: 6;
-	background: #4A7014;
+	background: #222940;
 }
 
 #div_characterBeakUp {
 	z-index: 7;
-	background: #FCAF26;
+	background: #F05320;
 }
 
 #div_characterBeakDown {
 	z-index: 7;
-	background: #F79327;
+	background: #222940;
 }
 
 /**************question*********************/
@@ -173,7 +182,7 @@ img {
 
 .div_questionLeft_class {
 	width: 300px;
-	background: #8ABE34;
+	background: #597DA3;
 	float: left;
 }
 
@@ -186,7 +195,7 @@ img {
 	float: left;
 	font-family: "Segoe UI";
 	font-size: 18px;
-	color: #FCFCF4;
+	color: #ffffff;
 	width: 170px;
 	margin: 10px 5px 5px 10px;
 	overflow: hidden;
@@ -203,7 +212,7 @@ img {
 	height: 0; 
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	border-left: 20px solid #8ABE34;
+	border-left: 20px solid #597DA3;
 }
 
 .button_questionOption_class {
@@ -211,8 +220,8 @@ img {
 	font-size: 15px;
 	display: block;
 	cursor: pointer;
-	color: #FCFCF4;
-	background: #4A7014;
+	color: #ffffff;
+	background: #222940;
 	border: none;
 	padding: 5px;
 	margin-bottom: 5px;
@@ -249,7 +258,7 @@ img {
 
 .div_answerRight_class {
 	width: 130px;
-	background: #FCAF26;
+	background: #222940;
 	float: left;
 }
 
@@ -267,31 +276,5 @@ img {
 	height: 0;
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	border-right: 20px solid #FCAF26;
-}
-
-.button_answerOption_class {
-	font-family: "Segoe UI Semibold";
-	font-size: 15px;
-	display: block;
-	cursor: pointer;
-	color: #FCFCF4;
-	background: #F79327;
-	border: none;
-	padding: 5px;
-	margin-bottom: 5px;
-	width: 100px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	-khtml-border-radius: 3px;
-	-moz-box-shadow: 0px 0px 10px 0px #ffffff;
- 	-webkit-box-shadow: 0px 0px 10px 0px #ffffff;
-	box-shadow: 0px 0px 10px 0px #FCFCF4;
-}
-
-.button_answerOption_class:hover {
-	-moz-box-shadow: 0px 0px 10px 3px #FCFCF4;
-	-webkit-box-shadow: 0px 0px 10px 3px #FCFCF4;
-	box-shadow: 0px 0px 10px 3px #FCFCF4;
+	border-right: 20px solid #222940;
 }
