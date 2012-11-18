@@ -20,7 +20,7 @@ img {
 	height: 50px;
 	margin-bottom: 50px;
 	background: #A3D3D9;
-	border-bottom: #222940 5px solid;
+	border-top: #222940 5px solid;
 }
 
 #div_content {
@@ -93,7 +93,7 @@ img {
 
 .button_mainMenuLeft_class {
 	cursor: pointer;
-	background: #4a7014;
+	background: #222940;
 	border: none;
 	height: 50px;
 	color: #fcfcf4;
@@ -104,7 +104,7 @@ img {
 
 .button_mainMenuRight_class {
 	cursor: pointer;
-	background: #fcaf26;
+	background: #222940;
 	border: none;
 	height: 50px;
 	color: #fcfcf4;
