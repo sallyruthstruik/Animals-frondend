@@ -101,7 +101,7 @@ function build_content( mode ) {
 
 function build_character( mode ) {
 	inn = 
-	/*div( "characterEye", "", "", "" )+
+	div( "characterEye", "", "", "" )+
 	div( "characterBody", "", "", "" )+
 	div( "characterWing", "", "", "" )+
 	div( "characterBeakUp", "", "", "" )+
@@ -171,7 +171,7 @@ function build_character( mode ) {
 		.css( "-o-border-bottom-right-radius", (control.characterSize/250)*27.3 )
 		.css( "-ms-border-bottom-right-radius", (control.characterSize/250)*27.3 )
 		.css( "-khtml-border-bottom-right-radius", (control.characterSize/250)*27.3 )
-		.css( "border-bottom-right-radius", (control.characterSize/250)*27.3 );*/
+		.css( "border-bottom-right-radius", (control.characterSize/250)*27.3 );
 }
 
 function build_footer( mode ) {
