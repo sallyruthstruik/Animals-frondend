@@ -42,7 +42,6 @@ img {
 .div_popWindow_class {
 	display: none;
 	position: fixed;
-	background: red;
 	width: 200px;
 	height: 110px;
 	top: 30%;
@@ -50,7 +49,7 @@ img {
 	z-index: 11;
 	text-align: center;
 	padding-top: 20px;
-	background: #fcfcf4;
+	background: #BF9D7E;
 	border: #141313 1px solid;
 }
 
@@ -69,7 +68,7 @@ img {
 	width: 136px;
 	height: 42px;
 	border: none;
-	background: #4a7014;
+	background: #597DA3;
 	color: #fcfcf4;
 	font-family: "Segoe UI Semibold";
 	font-size: 18px;
