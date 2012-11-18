@@ -30,7 +30,7 @@ function build_body( mode ) {
 	build_main( mode );
 	/*******************************/
 	$( "#div_surrender" )
-		.css( "top", $( "#button_mainMenuSurrender" ).position().bottom + 20 )
+		.css( "top", $( "#button_mainMenuSurrender" ).position().top + 70 )
 		.css( "left", $( "#button_mainMenuSurrender" ).position().left + 20 );
 }
 
