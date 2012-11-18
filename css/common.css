@@ -96,14 +96,14 @@ img {
 	background: transparent;
 	border: none;
 	height: 50px;
-	color: #6576AD;
+	color: #222940;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-right: 10px;
 }
 
 .button_mainMenuLeft_class:hover {
-	color: #222940;
+	background: #91C4D9;
 }
 
 .button_mainMenuRight_class {
@@ -111,14 +111,14 @@ img {
 	background: transparent;
 	border: none;
 	height: 50px;
-	color: #6576AD;
+	color: #222940;
 	font-family: "Segoe UI";
 	font-size: 18px;
 	margin-left: 10px;
 }
 
 .button_mainMenuRight_class:hover {
-	color: #222940;
+	background: #91C4D9;
 }
 
 /****************character*******************/
